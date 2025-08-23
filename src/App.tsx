@@ -10,7 +10,7 @@ import { Testimonials } from "./components/Testimonials";
 import { FAQ } from "./components/FAQ";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import { AdminDashboard } from "./components/AdminDashboard";
+import AdminDashboard from "./components/AdminDashboard";
 import { Toaster } from "./components/ui/sonner";
 import { useEffect, useState } from "react";
 
