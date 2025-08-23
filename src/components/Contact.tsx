@@ -7,7 +7,8 @@ import { Textarea } from "./ui/textarea";
 import { useState } from "react";
 import { Mail, Phone, MapPin, Calendar } from "lucide-react";
 import { projectId, publicAnonKey } from '../utils/supabase/info';
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
+
 
 export function Contact() {
   const [formData, setFormData] = useState({
